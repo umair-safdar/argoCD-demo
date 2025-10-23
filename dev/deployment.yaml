@@ -1,11 +1,11 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myapp
+  name: myapp-1
 spec:
   selector:
     matchLabels:
-      app: myapp-1
+      app: myapp
   replicas: 2
   template:
     metadata:
